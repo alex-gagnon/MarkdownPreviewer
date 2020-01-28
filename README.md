@@ -1,3 +1,7 @@
+# Markdown Previewer
+
+React app that allows user to input markdown text and see a preview.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
