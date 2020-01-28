@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+body {
+  margin: 0;
+}
+
+.App {
+  width: 95vw;
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Monoton', cursive;
+}
+
+.container {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+
