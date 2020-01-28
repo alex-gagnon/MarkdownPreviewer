@@ -17,6 +17,11 @@ class Main extends Component {
     })
   }
 
+  createMarkup() {
+    marked.setOptions({ breaks: true })
+    return {__html: this.state.markdown}
+  }
+
   render() {
     return (
       <main>
@@ -25,7 +30,9 @@ class Main extends Component {
           onChange={this.handleChange}></textarea>
         </div>
         <div>
-          <text id="preview">{this.state.markdown}</text>
+          <div id="preview">
+            <text dangerouslySetInnerHTML={this.createMarkup()}></text>
+          </div>
         </div>
       </main>
     )
