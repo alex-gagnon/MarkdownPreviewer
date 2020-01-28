@@ -9,7 +9,9 @@ class App extends Component {
         <header>
           <h1>Markdown Previewer</h1>
         </header>
-        <Main />
+        <div className="container">
+          <Main/>
+        </div>
       </div>
     );
   }
