@@ -35,8 +35,8 @@ class Main extends Component {
           onChange={this.handleChange}>{this.state.defaultText}</textarea>
         </div>
         <div className="md-section">
-          <text id="preview" dangerouslySetInnerHTML={this.createMarkup()}>
-          </text>
+          <p id="preview" dangerouslySetInnerHTML={this.createMarkup()}>
+          </p>
         </div>
       </main>
     )
