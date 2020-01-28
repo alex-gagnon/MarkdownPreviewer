@@ -31,10 +31,12 @@ class Main extends Component {
     return (
       <main>
         <div className="md-section">
+          <h2 className="md-header">Editor</h2>
           <textarea id="editor" 
           onChange={this.handleChange}>{this.state.defaultText}</textarea>
         </div>
         <div className="md-section">
+          <h2 className="md-header">Preview</h2>
           <p id="preview" dangerouslySetInnerHTML={this.createMarkup()}>
           </p>
         </div>
