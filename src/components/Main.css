@@ -4,6 +4,10 @@ main {
     justify-content: space-between;
 }
 
+.md-header {
+    font-family: "Monoton", cursive;
+}
+
 .md-section {
     min-width: 45%;
     margin-left: 15px;
