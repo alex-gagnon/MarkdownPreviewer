@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "author": "Alex Gagnon",
+  "name": "portfolio-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
